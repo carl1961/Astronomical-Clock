@@ -20,62 +20,62 @@ This project is 150% size of original
  
 (*) or Optional
 
-VCC	5V-----------------PIN 5
+VCC	5V-----------------PIN_5
 
-GND--------------------PIN 6
+GND--------------------PIN_6
 
-VCC	3V3----------------PIN 7
+VCC_3V3----------------PIN_7
 
-Pin 4 *----------------PIN 8
+Pin_4 *----------------PIN_8
 
-Pin 3 *----------------PIN 9
+Pin_3 *----------------PIN_9
 
-Pin 2 *----------------PIN 10
+Pin_2 *----------------PIN_10
 
-Pin 1 *----------------PIN 20
+Pin_1 *----------------PIN_20
 
-Pin 0 *----------------PIN 21
+Pin_0 *----------------PIN_21
 
 
 #TMC2209
 
 **originl setup**
 
-EN----------------VM 5V
+EN--------------------------VM_5V
 
-MS1---------------GND
+MS1-------------------------GND
 
-MS2---------------M2B  orange wire stepper motor 28BYJ-48
+MS2-------------------------M2B  **orange wire stepper motor 28BYJ-48**
 
-SRD---------------M2A  pink wire stepper motor 28BYJ-48
+SRD-------------------------M2A  **pink wire stepper motor 28BYJ-48**
 
-RX  PIN 9---------M1A  yellow wire stepper motor 28BYJ-48
+RX_PIN 9--------------------M1A  **yellow wire stepper motor 28BYJ-48**
 
-TX----------------M1B  blue wire stepper motor 28BYJ-48
+TX--------------------------M1B  **blue wire stepper motor 28BYJ-48**
 
-STEP PIN 6--------VIO 5V
+STEP-PIN_6------------------VIO_5V
 
-DIR  PIN 5--------GND
+DIR-PIN_5-------------------GND
 
 
 **I had to reverse motor, reverse wires on stepper motor 28BYJ-48**
 
 
-EN----------------VM 5V
+EN-------------------------VM_5V
 
-MS1---------------GND
+MS1------------------------GND
 
-MS2---------------M2B  blue wire stepper motor 28BYJ-48
+MS2------------------------M2B  **blue wire stepper motor 28BYJ-48**
 
-SRD---------------M2A  yellow wire stepper motor 28BYJ-48
+SRD------------------------M2A  **yellow wire stepper motor 28BYJ-48**
 
-RX  PIN 9---------M1A  pink wire stepper motor 28BYJ-48
+RX-PIN_9-------------------M1A  **pink wire stepper motor 28BYJ-48**
 
-TX---------------M1B  orange wire stepper motor 28BYJ-48
+TX-------------------------M1B  **orange wire stepper motor 28BYJ-48**
 
-STEP PIN 6-------VIO 5V
+STEP-PIN_6-----------------VIO_5V
 
-DIR  PIN 5-------GND
+DIR-PIN_5------------------GND
 
 
 
@@ -83,21 +83,21 @@ DIR  PIN 5-------GND
 
 **TFT Display**	   **ESP32-C3 Super Mini Pin**
 
-VCC				      	5V
+VCC--------------------------5V
 
-GND		    			GND
+GND--------------------------GND
 
-CS				     	Pin 3
+CS---------------------------Pin 3
 
-DC			      	Pin 1
+DC---------------------------Pin 1
 
-RST			    		Pin 0
+RST--------------------------Pin 0
 
-SCK					    Pin 2
+SCK--------------------------Pin 2
 
-SDI (MOSI)  Pin 4
+SDI (MOSI)-------------------Pin 4
 
-LED VCC				3V3
+LED VCC----------------------3V3
 
 ## Installation & Usage
 
