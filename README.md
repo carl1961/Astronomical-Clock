@@ -1,9 +1,13 @@
 # Astronomical Clock By illusionmanager
 https://www.instructables.com/Astronomical-Clock-1/  
 
+<img width="1024" height="754" alt="image" src="https://github.com/user-attachments/assets/3e89948f-1d67-41cc-a7be-5af4e3841bac" />
+
 Read and follow illusionmanager instrutions
 
 This project is 150% size of original
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/19b8ff9a-b819-4a95-864a-91b168c3ae61" />
 
 ## Features (Optional)
 
@@ -16,55 +20,88 @@ This project is 150% size of original
 
 ## Pinout
 
-- ESP32-C3 Super mini
-
- ESP32-C3 Super Mini Pin
+ **ESP32-C3 Super Mini Pin**
+ 
 (*) or Optional
-VCC	5V       PIN 5
-GND	         PIN 6
-VCC	3V3      PIN 7
-Pin 4 *      PIN 8
-Pin 3 *      PIN 9
-Pin 2 *      PIN 10
-Pin 1 *      PIN 20
-Pin 0 *      PIN 21
 
-TMC2209
+VCC	5V-----------------PIN_5
 
-originl setup
-EN             VM 5V
-MS1            GND
-MS2            M2B  orange wire stepper motor 28BYJ-48
-SRD            M2A  pink wire stepper motor 28BYJ-48
-RX  PIN 9      M1A  yellow wire stepper motor 28BYJ-48
-TX             M1B  blue wire stepper motor 28BYJ-48
-STEP PIN 6     VIO 5V
-DIR  PIN 5     GND
+GND--------------------PIN_6
 
-I had to reverse motor, reverse wires on stepper motor 28BYJ-48
+VCC_3V3----------------PIN_7
 
-EN             VM 5V
-MS1            GND
-MS2            M2B  blue wire stepper motor 28BYJ-48
-SRD            M2A  yellow wire stepper motor 28BYJ-48
-RX  PIN 9      M1A  pink wire stepper motor 28BYJ-48
-TX             M1B  orange wire stepper motor 28BYJ-48
-STEP PIN 6     VIO 5V
-DIR  PIN 5     GND
+Pin_4 *----------------PIN_8
+
+Pin_3 *----------------PIN_9
+
+Pin_2 *----------------PIN_10
+
+Pin_1 *----------------PIN_20
+
+Pin_0 *----------------PIN_21
 
 
+#TMC2209
 
-- ESP32 C3 with ILI9341 display (Optional)
+**originl setup**
 
-TFT Display	   ESP32-C3 Super Mini Pin
-VCC					5V
-GND					GND
-CS					Pin 3
-DC					Pin 1
-RST					Pin 0
-SCK					Pin 2
-SDI (MOSI)      	Pin 4
-LED VCC				3V3
+EN--------------------------VM_5V
+
+MS1-------------------------GND
+
+MS2-------------------------M2B  **orange wire stepper motor 28BYJ-48**
+
+SRD-------------------------M2A  **pink wire stepper motor 28BYJ-48**
+
+RX_PIN 9--------------------M1A  **yellow wire stepper motor 28BYJ-48**
+
+TX--------------------------M1B  **blue wire stepper motor 28BYJ-48**
+
+STEP-PIN_6------------------VIO_5V
+
+DIR-PIN_5-------------------GND
+
+
+**I had to reverse motor, reverse wires on stepper motor 28BYJ-48**
+
+
+EN-------------------------VM_5V
+
+MS1------------------------GND
+
+MS2------------------------M2B  **blue wire stepper motor 28BYJ-48**
+
+SRD------------------------M2A  **yellow wire stepper motor 28BYJ-48**
+
+RX-PIN_9-------------------M1A  **pink wire stepper motor 28BYJ-48**
+
+TX-------------------------M1B  **orange wire stepper motor 28BYJ-48**
+
+STEP-PIN_6-----------------VIO_5V
+
+DIR-PIN_5------------------GND
+
+
+
+- **ESP32 C3 with ILI9341 display (Optional)**
+
+**TFT Display**	   **ESP32-C3 Super Mini Pin**
+
+VCC--------------------------5V
+
+GND--------------------------GND
+
+CS---------------------------Pin 3
+
+DC---------------------------Pin 1
+
+RST--------------------------Pin 0
+
+SCK--------------------------Pin 2
+
+SDI (MOSI)-------------------Pin 4
+
+LED VCC----------------------3V3
 
 ## Installation & Usage
 
@@ -95,6 +132,7 @@ LED VCC				3V3
 For Optinal Wifi AP
 -   [WiFiManager](https://github.com/tzapu/WiFiManager) 
 -   [Setting  TZ](https://github.com/esp8266/Arduino/blob/master/cores/esp8266/TZ.h)
+-   
 For Optional Display
 -   [Adafruit_ILI9341](https://github.com/tzapu/WiFiManager) 
 -   [Adafruit_GFX](https://github.com/tzapu/WiFiManager) 
