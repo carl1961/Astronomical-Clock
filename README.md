@@ -57,13 +57,13 @@ DIR  PIN 5     GND
 - ESP32 C3 with ILI9341 display (Optional)
 
 TFT Display	   ESP32-C3 Super Mini Pin
-VCC					5V
-GND					GND
-CS					Pin 3
-DC					Pin 1
-RST					Pin 0
-SCK					Pin 2
-SDI (MOSI)      	Pin 4
+VCC				      	5V
+GND		    			GND
+CS				     	Pin 3
+DC			      	Pin 1
+RST			    		Pin 0
+SCK					    Pin 2
+SDI (MOSI)  Pin 4
 LED VCC				3V3
 
 ## Installation & Usage
@@ -95,6 +95,7 @@ LED VCC				3V3
 For Optinal Wifi AP
 -   [WiFiManager](https://github.com/tzapu/WiFiManager) 
 -   [Setting  TZ](https://github.com/esp8266/Arduino/blob/master/cores/esp8266/TZ.h)
+-   
 For Optional Display
 -   [Adafruit_ILI9341](https://github.com/tzapu/WiFiManager) 
 -   [Adafruit_GFX](https://github.com/tzapu/WiFiManager) 
