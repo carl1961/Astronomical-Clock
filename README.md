@@ -1,9 +1,13 @@
 # Astronomical Clock By illusionmanager
 https://www.instructables.com/Astronomical-Clock-1/  
 
+<img width="1024" height="754" alt="image" src="https://github.com/user-attachments/assets/3e89948f-1d67-41cc-a7be-5af4e3841bac" />
+
 Read and follow illusionmanager instrutions
 
 This project is 150% size of original
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/19b8ff9a-b819-4a95-864a-91b168c3ae61" />
 
 ## Features (Optional)
 
