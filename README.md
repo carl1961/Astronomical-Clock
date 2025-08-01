@@ -115,7 +115,7 @@ LED VCC----------------------3V3
 ## AP Option
 
 1.  **Initial Setup:**
-    -   On the first boot, or if a WiFi connection fails, the ESP32 starts a WiFi Access Point with the SSID **"AstroClockAP"** and the password **"12345678"**.
+    -   On the first boot, or if a WiFi connection fails, the ESP32 starts a WiFi Access Point with the SSID **"AstroClockAP"** and the password **"12345678"** if you enabled it in firmware, default is no password.
     -   An LED will blink to indicate it's in configuration mode.
 2.  **Configuration:**
     -   Connect to the "AstroClockAP" WiFi network from your computer or smartphone.
